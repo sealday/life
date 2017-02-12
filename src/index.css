@@ -13,7 +13,7 @@ body {
   color: #fffce1;
   font-family: 'Raleway', Arial, sans-serif;
 }
-#app {
+#root {
   height: 100%;
 }
 a {
