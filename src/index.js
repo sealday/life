@@ -5,7 +5,7 @@ import App from './App';
 import { createStore, combineReducers } from 'redux'
 import { Provider } from 'react-redux'
 
-import SlideMenu from './components/BurgerMenu'
+import SlideMenu from './components/SlideMenu'
 
 import * as reducers from './reducers'
 
