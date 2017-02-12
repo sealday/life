@@ -1,4 +1,4 @@
-import menuFactory from '../menuFactory';
+import menuFactory from './menuFactory';
 
 const styles = {};
 
