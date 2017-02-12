@@ -3,3 +3,73 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+.side-button {
+  display: inline-block;
+  width: 5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  cursor: pointer;
+  background: #fffce1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+.side-button.left {
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+ }
+
+.side-button.right {
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+ }
+
+.side-button.active {
+   background: #c94e50;
+   color: #fffce1;
+ }
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  background: #373a47;
+}
+
+.bm-menu a {
+  background: #373a47;
+  color: #b8b7ad;
+}
+
+.bm-menu a:hover,
+.bm-menu a:focus {
+  color: #c94e50;
+}
+
+.bm-item-list a {
+  padding: 0.8em;
+
+}
+
+.bm-item-list a span {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+main {
+  height: 100%;
+  padding: 3em 2em;
+  text-align: center;
+  background: #b4bad2;
+  overflow: scroll;
+}
